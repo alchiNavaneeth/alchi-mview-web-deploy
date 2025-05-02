@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/modules/shared/services/shared.service.ts"],
-  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { BehaviorSubject } from 'rxjs';\nimport { ILoginScreen } from '../models/login.model';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class SharedService {\n  private screenSource = new BehaviorSubject<ILoginScreen>('Login');\n  currentScreen = this.screenSource.asObservable();\n\n  constructor() {}\n\n  changeScreen(screen: ILoginScreen) {\n    this.screenSource.next(screen);\n  }\n}\n"],
-  "mappings": "gDAOA,IAAaA,GAAa,IAAA,CAApB,MAAOA,CAAa,CAChBC,aAAe,IAAIC,EAA8B,OAAO,EAChEC,cAAgB,KAAKF,aAAaG,aAAY,EAE9CC,aAAA,CAAe,CAEfC,aAAaC,EAAoB,CAC/B,KAAKN,aAAaO,KAAKD,CAAM,CAC/B,4CARWP,EAAa,6BAAbA,EAAaS,QAAbT,EAAaU,UAAAC,WAFZ,MAAM,CAAA,SAEPX,CAAa,GAAA",
-  "names": ["SharedService", "screenSource", "BehaviorSubject", "currentScreen", "asObservable", "constructor", "changeScreen", "screen", "next", "factory", "\u0275fac", "providedIn"]
-}

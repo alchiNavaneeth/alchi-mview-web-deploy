@@ -1,2 +1,0 @@
-import{ca as r}from"./chunk-EHZKD7YP.js";var s=(()=>{class e{constructor(){}set userId(t){localStorage.setItem("user_id",t.toString())}get userId(){return parseInt(localStorage.getItem("user_id"))}removeUserSession(){localStorage.removeItem("user_id")}static \u0275fac=function(o){return new(o||e)};static \u0275prov=r({token:e,factory:e.\u0275fac,providedIn:"root"})}return e})();export{s as a};
-//# sourceMappingURL=chunk-R7VYI33H.js.map

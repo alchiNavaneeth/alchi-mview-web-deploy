@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/modules/shared/components/tooltip/tooltip.component.scss"],
-  "sourcesContent": ["@use '@mview/scss/utilities/functions' as *;\n@use 'sass:color';\n\n.tooltip {\n  position: fixed;\n  background-color: white;\n  border-radius: 4px;\n  border: 2px solid color.adjust(pick-color('primary', 'blue'), $lightness: 48%);\n  color: pick-color('primary', 'ash');\n  padding: 3px 6px;\n  font-size: 13px;\n  margin-top: 5px;\n  transform: translateX(-50%);\n\n  &::before {\n    content: '';\n    width: 0;\n    height: 0;\n    border-left: 5px solid transparent;\n    border-right: 5px solid transparent;\n    border-bottom: 5px solid white;\n    position: absolute;\n    left: calc(50% - 5px);\n    top: -5px;\n  }\n}\n"],
-  "mappings": "AAGA,CAAA,QACE,SAAA,MACA,iBAAA,KAFF,cAGE,IACA,OAAA,IAAA,MAAA,IAAA,KAAA,CAAA,cAAA,CAAA,KACA,MAAA,QALF,QAME,IAAA,IACA,UAAA,KACA,WAAA,IACA,UAAA,UAAA,MAEA,CAXF,OAWE,QACE,QAAA,GACA,MAAA,EACA,OAAA,EACA,YAAA,IAAA,MAAA,YACA,aAAA,IAAA,MAAA,YACA,cAAA,IAAA,MAAA,MACA,SAAA,SACA,KAAA,KAAA,IAAA,EAAA,KACA,IAAA",
-  "names": []
-}

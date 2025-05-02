@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/core/session/user-session.service.ts"],
-  "sourcesContent": ["import { Injectable } from '@angular/core';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class UserSessionService {\n  constructor() {}\n\n  set userId(id: number) {\n    localStorage.setItem('user_id', id.toString());\n  }\n\n  get userId(): number {\n    return parseInt(localStorage.getItem('user_id')!);\n  }\n\n  removeUserSession() {\n    localStorage.removeItem('user_id');\n  }\n}\n"],
-  "mappings": "yCAKA,IAAaA,GAAkB,IAAA,CAAzB,MAAOA,CAAkB,CAC7BC,aAAA,CAAe,CAEf,IAAIC,OAAOC,EAAU,CACnBC,aAAaC,QAAQ,UAAWF,EAAGG,SAAQ,CAAE,CAC/C,CAEA,IAAIJ,QAAM,CACR,OAAOK,SAASH,aAAaI,QAAQ,SAAS,CAAE,CAClD,CAEAC,mBAAiB,CACfL,aAAaM,WAAW,SAAS,CACnC,4CAbWV,EAAkB,6BAAlBA,EAAkBW,QAAlBX,EAAkBY,UAAAC,WAFjB,MAAM,CAAA,SAEPb,CAAkB,GAAA",
-  "names": ["UserSessionService", "constructor", "userId", "id", "localStorage", "setItem", "toString", "parseInt", "getItem", "removeUserSession", "removeItem", "factory", "\u0275fac", "providedIn"]
-}

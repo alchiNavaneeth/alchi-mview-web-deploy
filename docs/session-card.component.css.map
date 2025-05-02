@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/modules/media/session/components/session-card/session-card.component.scss"],
-  "sourcesContent": ["@use '@mview/scss/utilities/functions' as *;\n@use '@mview/scss/utilities/mixins' as *;\n@use 'sass:color';\n\n.session-card-wrapper {\n  padding: 0 10px 0 0;\n  border-radius: 5px;\n\n  .sc-additional-icons {\n    user-select: none;\n\n    .dropdown-wrapper {\n      width: fit-content;\n      left: unset;\n      right: 0;\n    }\n  }\n}\n"],
-  "mappings": "AAIA,CAAA,qBAAA,QACE,EAAA,KAAA,EAAA,EADF,cAEE,IAEA,CAJF,qBAIE,CAAA,oBACE,oBAAA,KAAA,YAAA,KAEA,CAPJ,qBAOI,CAHF,oBAGE,CAAA,iBACE,MAAA,YACA,KAAA,MACA,MAAA",
-  "names": []
-}

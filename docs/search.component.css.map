@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/modules/media/session/search/search.component.scss"],
-  "sourcesContent": ["@use '@mview/scss/utilities/functions' as *;\n@use '@mview/scss/utilities/mixins' as *;\n@use 'sass:color';\n\n.search-page-wrapper {\n  padding: 0 20px;\n\n  .basic-search-wrapper {\n    width: 100%;\n    position: sticky;\n    top: 119px;\n    background-color: pick-color('secondary', 'steam');\n    z-index: 119;\n    padding: 6px 0 2px 0;\n  }\n\n  .loader-wrapper {\n    margin-top: 120px;\n  }\n\n  .empty-state-wrapper {\n    margin-top: 120px;\n\n    svg {\n      margin-bottom: 24px;\n    }\n  }\n\n  .search-results-wrapper {\n    label {\n      width: 100%;\n      margin-bottom: 0;\n    }\n  }\n}\n"],
-  "mappings": "AAIA,CAAA,oBAAA,QACE,EAAA,KAEA,CAHF,oBAGE,CAAA,qBACE,MAAA,KACA,SAAA,OACA,IAAA,MACA,iBAAA,QACA,QAAA,IARJ,QASI,IAAA,EAAA,IAGF,CAZF,oBAYE,CAAA,eAIA,CAhBF,oBAgBE,CAAA,oBAHE,WAAA,MAMA,CAnBJ,oBAmBI,CAHF,oBAGE,IACE,cAAA,KAKF,CAzBJ,oBAyBI,CAAA,uBAAA,MACE,MAAA,KACA,cAAA",
-  "names": []
-}
