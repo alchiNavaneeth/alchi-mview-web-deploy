@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/modules/media/session/details/tabs/file-info/file-info.component.scss"],
+  "sourcesContent": [".file-info-wrapper {\n  .metadata-wrapper {\n    .metadata-content {\n      margin-left: 12px;\n      gap: 20px;\n\n      h6 {\n        line-height: 24px;\n      }\n    }\n  }\n}\n"],
+  "mappings": "AAEI,CAAA,kBAAA,CAAA,iBAAA,CAAA,iBACE,YAAA,KACA,IAAA,KAEA,CAJF,kBAIE,CAJF,iBAIE,CAJF,iBAIE,GACE,YAAA",
+  "names": []
+}

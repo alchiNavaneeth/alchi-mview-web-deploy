@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/modules/settings/camera-settings/selection-dialog/selection-dialog.component.scss"],
+  "sourcesContent": [":ng-deep .mat-mdc-form-field {\n  margin-top: -7px !important;\n  padding-left: 10px !important;\n}\n\n.mask {\n  box-sizing: border-box;\n  border: 1px solid #bdc1c5;\n  border-radius: 5px;\n  background-color: #ffffff;\n}\n.btn {\n  text-shadow: none !important;\n}\n.mat-mdc-radio-group {\n  display: flex;\n  width: 100%;\n  justify-content: space-between;\n}\n"],
+  "mappings": "AAAA,SAAA,CAAA,mBACE,WAAA,eACA,aAAA,eAGF,CAAA,KACE,WAAA,WACA,OAAA,IAAA,MAAA,QAPF,cAQE,IACA,iBAAA,KAEF,CAAA,IACE,YAAA,eAEF,CAAA,oBACE,QAAA,KACA,MAAA,KACA,gBAAA",
+  "names": []
+}
