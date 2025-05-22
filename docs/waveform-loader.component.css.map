@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/modules/media/session/details/tabs/edit/waveform-loader/waveform-loader.component.scss"],
+  "sourcesContent": ["@use '@mview/scss/utilities/functions' as *;\n\n@keyframes waveform-shimmer {\n  0% {\n    transform: translateX(-100%);\n  }\n  100% {\n    transform: translateX(100%);\n  }\n}\n\n.waveform-loader-wrapper {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n  position: relative;\n  overflow: hidden;\n  width: fit-content;\n  height: 100px;\n\n  &::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 200%;\n    height: 100%;\n    background: linear-gradient(120deg, transparent 30%, pick-color('secondary', 'steam') 50%, transparent 70%);\n    animation: waveform-shimmer 1s infinite linear;\n  }\n\n  .wave {\n    width: 5px;\n    border-radius: 5px;\n    background-color: pick-color('primary', 'fog');\n    position: relative;\n  }\n}\n"],
+  "mappings": "AAEA,WAAA,iBACE,GACE,UAAA,UAAA,OAEF,GACE,UAAA,UAAA,OAIJ,CAAA,wBACE,QAAA,KACA,YAAA,OACA,IAAA,IACA,SAAA,SACA,SAAA,OACA,MAAA,YACA,OAAA,MAEA,CATF,uBASE,QACE,QAAA,GACA,SAAA,SACA,IAAA,EACA,KAAA,EACA,MAAA,KACA,OAAA,KACA,WAAA,gBAAA,MAAA,CAAA,YAAA,GAAA,CAAA,QAAA,GAAA,CAAA,YAAA,KACA,UAAA,iBAAA,GAAA,SAAA,OAGF,CApBF,wBAoBE,CAAA,KACE,MAAA,IA9BJ,cA+BI,IACA,iBAAA,QACA,SAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/modules/dashboard/camera-realtime-map/camera-realtime-map.component.scss"],
+  "sourcesContent": ["@use '@mview/scss/utilities/variables' as *;\n\n.device-location-map {\n  bottom: 0px;\n  top: 0px;\n  width: calc(100% - 10px);\n  position: absolute;\n  overflow: hidden;\n  margin: 10px;\n  margin-left: 0px;\n}\n\n::ng-deep div.navigation {\n  margin-bottom: 0px !important;\n}\n\n.realtime-device-map {\n  height: 100%;\n  position: relative;\n  overflow: hidden;\n  background: #f8f9fa;\n}\n\n.search-menu {\n  background: #f8f9fa;\n}\n\n::ng-deep #container {\n  height: calc(100% - 240px);\n}\n\n::ng-deep #aspnetForm {\n  height: 100%;\n}\n\n::ng-deep #container #footerBG {\n  position: relative;\n  width: 100%;\n  height: auto;\n}\n\n::ng-deep #footerHolder {\n  margin: 0;\n}\n\nstream-viewer {\n  position: absolute;\n  left: 310px;\n  z-index: 999;\n}\n"],
+  "mappings": "AAEA,CAAA,oBACE,OAAA,EACA,IAAA,EACA,MAAA,KAAA,KAAA,EAAA,MACA,SAAA,SACA,SAAA,OALF,OAME,eACA,EAGF,UAAA,GAAA,CAAA,WACE,cAAA,YAGF,CAAA,oBACE,OAAA,KACA,SAAA,SACA,SAAA,OACA,WAAA,QAGF,CAAA,YACE,WAAA,QAGF,UAAA,CAAA,UACE,OAAA,KAAA,KAAA,EAAA,OAGF,UAAA,CAAA,WACE,OAAA,KAGF,UAAA,CARA,UAQA,CAAA,SACE,SAAA,SACA,MAAA,KACA,OAAA,KAGF,UAAA,CAAA,aAvCA,OAwCE,EAGF,cACE,SAAA,SACA,KAAA,MACA,QAAA",
+  "names": []
+}
