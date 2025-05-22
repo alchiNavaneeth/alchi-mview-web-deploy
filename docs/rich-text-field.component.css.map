@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/modules/shared/components/rich-text-field/rich-text-field.component.scss"],
-  "sourcesContent": ["@use '@mview/scss/utilities/functions' as *;\n\n:host {\n  flex-grow: 1;\n}\n\n.rich-text-field-wrapper {\n  height: 100%;\n\n  textarea {\n    background-color: white;\n    border: 1px solid pick-color('primary', 'fog');\n    font-size: 14px;\n    color: pick-color('primary', 'charcoal');\n    height: 100%;\n    resize: none;\n  }\n}\n"],
-  "mappings": "AAEA,MACE,UAAA,EAGF,CAAA,wBACE,OAAA,KAEA,CAHF,wBAGE,SACE,iBAAA,KACA,OAAA,IAAA,MAAA,QACA,UAAA,KACA,MAAA,QACA,OAAA,KACA,OAAA",
-  "names": []
-}

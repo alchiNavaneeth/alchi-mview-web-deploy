@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/modules/media/session/details/tabs/file-info/file-info.component.scss"],
-  "sourcesContent": ["@use '@mview/scss/utilities/functions' as *;\n@use '@mview/scss/utilities/mixins' as *;\n@use 'sass:color';\n\n.file-info-wrapper {\n  .file-info-content {\n    display: grid;\n    grid-template-columns: 160px 150px 150px 100px 80px;\n    grid-template-rows: 1fr 1fr;\n    justify-content: space-between;\n    gap: 16px;\n    row-gap: 32px;\n    cursor: default;\n\n    h6 {\n      font-size: 14px;\n      color: pick-color('primary', 'charcoal');\n      line-height: 20px;\n    }\n\n    span {\n      margin-top: 5px;\n      font-size: 13px;\n      color: pick-color('primary', 'ash');\n    }\n\n    h6,\n    span {\n      display: block;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n    }\n  }\n}\n"],
-  "mappings": "AAKE,CAAA,kBAAA,CAAA,kBACE,QAAA,KACA,sBAAA,MAAA,MAAA,MAAA,MAAA,KACA,mBAAA,IAAA,IACA,gBAAA,cACA,IAAA,KACA,QAAA,KACA,OAAA,QAEA,CATF,kBASE,CATF,kBASE,GACE,UAAA,KACA,MAAA,QACA,YAAA,KAGF,CAfF,kBAeE,CAfF,kBAeE,KACE,WAAA,IACA,UAAA,KACA,MAAA,QAGF,CArBF,kBAqBE,CArBF,kBAqBE,GAAA,CArBF,kBAqBE,CArBF,kBAqBE,KAEE,QAAA,MACA,SAAA,OACA,cAAA,SACA,YAAA",
-  "names": []
-}
