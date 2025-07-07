@@ -1,1 +1,0 @@
-import{da as t}from"./chunk-IBV6FFWV.js";var o=class e{constructor(){}set userId(r){localStorage.setItem("user_id",r.toString())}get userId(){return parseInt(localStorage.getItem("user_id"))}removeUserSession(){localStorage.removeItem("user_id")}static \u0275fac=function(a){return new(a||e)};static \u0275prov=t({token:e,factory:e.\u0275fac,providedIn:"root"})};export{o as a};
