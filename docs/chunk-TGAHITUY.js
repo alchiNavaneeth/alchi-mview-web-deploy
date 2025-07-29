@@ -1,0 +1,1 @@
+import{da as c,g as o}from"./chunk-PDC2UTBK.js";var n=class e{screenSource=new o("Login");currentScreen=this.screenSource.asObservable();constructor(){}changeScreen(r){this.screenSource.next(r)}static \u0275fac=function(t){return new(t||e)};static \u0275prov=c({token:e,factory:e.\u0275fac,providedIn:"root"})};export{n as a};
